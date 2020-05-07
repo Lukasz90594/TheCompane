@@ -1,0 +1,76 @@
+body {
+  background-color: #777;
+  min-width: 507px;
+}
+body header {
+  padding-bottom: 5px;
+}
+body header .container {
+  display: flex;
+  background: #000000;
+  border: 3px solid black;
+  flex-direction: row;
+}
+body header .container logo {
+  background-color: green;
+  flex-grow: 1;
+}
+body header .container logo:hover {
+  background-color: #222;
+  color: green;
+}
+body header .container logo p {
+  color: #adff2f;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Times New Roman";
+}
+body header .container nav {
+  display: flex;
+  border: 3px solid black;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-grow: 3;
+}
+body header .container nav li a {
+  color: #777;
+  text-decoration: none;
+  text-align: center;
+  font-size: 200%;
+}
+body header .container nav li a:hover {
+  color: blue;
+  border-bottom: 3px solid blue;
+}
+.container {
+  display: flex;
+  background: #000000;
+  border: 3px solid black;
+  flex-direction: row;
+  text-align: left;
+}
+.cnt1 {
+  display: flex;
+  background: #000000;
+  border: 3px solid black;
+  text-align: left;
+  flex-direction: column;
+}
+.block {
+  padding-bottom: 3px;
+  color: #adff2f;
+}
+.block .cnt1 h2 {
+  text-align: center;
+}
+.block .cnt1 .container .text {
+  width: 75%;
+}
+.block .cnt1 .container .text span {
+  font-size: 1.25em;
+  color: #98fb00;
+}
+.block .cnt1 .container .picture {
+  width: 25%;
+  height: 1em;
+}
